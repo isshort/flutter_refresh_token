@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
+// import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -11,7 +11,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   void initState() {
-    FlutterNativeSplash.remove();
+    // FlutterNativeSplash.remove();
 
     super.initState();
   }
@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(title: const Text('HomePage Title')),
       body: Container(
-        child: Image.asset('assets/splash12.png'),
+        child: Image.asset('assets/ok.png'),
       ),
     );
   }
